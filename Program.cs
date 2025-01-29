@@ -3,6 +3,7 @@ WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 //Creates a WebApplicationBuilder instance, which sets up the application with default configurations like dependency injection, logging, and configuration management.
 //The args parameter allows you to pass command-line arguments to the application if needed.
 
+
 // Add services to the container.
 builder.Services.AddControllers(); // Registers controllers as services.
 //Registers controller services into the application’s dependency injection (DI) container.

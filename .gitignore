@@ -1,0 +1,44 @@
+# Ignore Visual Studio/JetBrains IDE files
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore build outputs and dependencies
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.log
+
+# Ignore ASP.NET Core and C# temp files
+appsettings*.json
+!appsettings.Development.json  # Keep local dev settings
+.env
+*.db
+*.db-journal
+
+# Ignore Entity Framework migrations and database files
+Migrations/
+*.mdf
+*.ldf
+
+# Ignore JetBrains Rider files
+*.DotSettings.user
+
+# Ignore macOS and Linux files
+.DS_Store
+*.swp
+
+# Ignore NuGet packages
+packages/
+*.nupkg
+project.lock.json
+
+# Ignore user-specific and temporary files
+*.bak
+*.tmp
+*.log
